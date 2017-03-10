@@ -56,7 +56,7 @@ public class Administrar_Guerreros {
                         Guerreros.add(temp);
                     }
                 } catch (EOFException e) {
-                    //encontro el final del archivo
+                   
                 }
                 objeto.close();
                 entrada.close();
