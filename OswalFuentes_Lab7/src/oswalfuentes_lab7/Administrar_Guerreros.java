@@ -13,12 +13,12 @@ public class Administrar_Guerreros {
     private ArrayList<Guerrero> Guerreros = new ArrayList();
     private File archivo = null;
 
-    public ArrayList<Guerrero> getListaAlumnos() {
+    public ArrayList<Guerrero> getGuerreros() {
         return Guerreros;
     }
 
-    public void setListaAlumnos(ArrayList<Guerrero> listaAlumnos) {
-        this.Guerreros = listaAlumnos;
+    public void setGuerreros(ArrayList<Guerrero> Guerreros) {
+        this.Guerreros = Guerreros;
     }
 
     public File getArchivo() {
